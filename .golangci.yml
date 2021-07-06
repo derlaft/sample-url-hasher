@@ -1,0 +1,9 @@
+linters:
+  # keep default set of linters enabled
+  disable-all: false
+
+  # also enable a couple more
+  enable:
+    - gofmt
+    - golint
+    - unconvert
